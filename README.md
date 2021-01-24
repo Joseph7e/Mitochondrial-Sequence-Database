@@ -9,7 +9,7 @@
 
 # Genetic codes https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi
 (transl_table=2) - The Vertebrate Mitochondrial Code  
-(transl_table=4) - The Mold, Protozoan, and Coelenterate Mitochondrial Code and the Mycoplasma/Spiroplasma Code (Cnidaria and Ctenophora)  
+(transl_table=4) - The Mold, Protozoan, and Coelenterate Mitochondrial Code and the Mycoplasma/Spiroplasma Code (Cnidaria/Ctenophora)  
 (transl_table=5) - The Invertebrate Mitochondrial Code  
 (transl_table=9) - The Echinoderm and Flatworm Mitochondrial Code (Echinodermata, Platyhelminthes)  
 (transl_table=13) - The Ascidian Mitochondrial Code (Tunicates)  
