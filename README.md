@@ -1,13 +1,15 @@
+# Next-generation Mitochondrial Metagenomics Analysis Toolkit (NG-MMAT)
+
+A pipeline for assembly, annotation, and phylogenomic analysis of mitochondrial sequences derived from next-generation sequencing data. The program is designed for metagenomic data but is equally useful for data from individual animals.
+
 # Mitochondrial-Sequence-Database
 
-
-# Complete mitochondrial genomes
-
+![alt text](https://github.com/joseph7e/NG-MMAT/blob/master/NG-MMAT-workflow.png?raw=true)
 
 
+# Mito-genome annotations
 
-
-# Genetic codes https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi
+## Suported genetic codes https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi
 (transl_table=2) - The Vertebrate Mitochondrial Code  
 (transl_table=4) - The Mold, Protozoan, and Coelenterate Mitochondrial Code and the Mycoplasma/Spiroplasma Code (Cnidaria/Ctenophora)  
 (transl_table=5) - The Invertebrate Mitochondrial Code  
