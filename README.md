@@ -4,7 +4,7 @@ A pipeline for assembly, annotation, and phylogenomic analysis of mitochondrial 
 
 # Mitochondrial-Sequence-Database
 
-![alt text](https://github.com/joseph7e/NG-MMAT/blob/main/img/NG-MMAT-workflow.png?raw=true)
+![alt text](https://github.com/joseph7e/NG-MMAT/blob/main/img/diagram-NGMMAT.png?raw=true)
 
 
 # Mito-genome annotations
