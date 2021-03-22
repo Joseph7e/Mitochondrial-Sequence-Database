@@ -11,9 +11,10 @@ git clone https://github.com/Joseph7e/NG-MMAT.git
 ```
 
 
-Python3 (tested with v3.6.9)
-
-
+python3 (tested with v3.6.9)  
+SPAdes assembler (tested with v3.13.1)
+BLAST (v2.9.0+)
+ART read simulation (only required for read simulation)
 
 ## Mitochondrial-Sequence-Database
 The program will construct a reference database of complete mitochondrial genomes and inddividual gene sequences automatically, assuming no current datbase exists (with a last update within a month). The database is stored in ~/.mitobin/. The user can override this database construction and use custom databases if chosen.
