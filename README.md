@@ -8,6 +8,18 @@ A pipeline for assembly, annotation, and phylogenomic analysis of mitochondrial 
 
 
 # Mitochondrial-Sequence-Database
+The program will construct a reference database of complete mitochondrial genomes and inddividual gene sequences automatically, assuming no current datbase exists (with a last update within a month).
+
+```bash
+#database location
+ls ~/.mitobin/
+```
+
+reference.faa -> amino acid translations of the protein-coding genes
+reference.fasta -> full length source sequences (typically complete mitochondrial genomes)
+reference.fna -> nucleotide sequences for all genes with annotations in source files
+reference.tsv -> metadata and descriptions of database sequences (genetic codes, gene lengths, etc.)
+simulated.fasta -> mitochondrial genomes sequences used to construct read datasets for pipeline testing.
 
 
 # Mito-genome annotations
