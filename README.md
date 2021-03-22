@@ -64,6 +64,13 @@ simulated.fasta -> mitochondrial genomes sequences used to construct read datase
 NG-MMATT expects the FASTA files in the refreence database to adhere to a specific format.
 
 
+### Mitochondrial gene names
+
+The nomenclature for mitochondrial genes is a bit sporadic, we convert all gene ids to a common names.
+
+genes = ["Any", '12S', '16S', 'ATP6', 'ATP8', 'COX1', 'COX2', 'COX3', 'CYTB', 'NAD1', 'NAD2', 'NAD3', 'NAD4', 'NAD4L',
+         'NAD5', 'NAD6']
+
 ## Mito-genome annotations
 
 ### Supported genetic codes https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi
