@@ -4,14 +4,22 @@ A pipeline for assembly, annotation, and phylogenomic analysis of mitochondrial 
 
 ![alt text](https://github.com/joseph7e/NG-MMAT/blob/main/img/diagram-NGMMAT.png?raw=true)
 
+## Installation and Dependencies
+
+```
+git clone https://github.com/Joseph7e/NG-MMAT.git
+```
+
+
+Python3 (tested with v3.6.9)
 
 
 
-# Mitochondrial-Sequence-Database
+## Mitochondrial-Sequence-Database
 The program will construct a reference database of complete mitochondrial genomes and inddividual gene sequences automatically, assuming no current datbase exists (with a last update within a month). The database is stored in ~/.mitobin/. The user can override this database construction and use custom databases if chosen.
 
 
-## Database file descriptions
+### Database file descriptions
 ```bash
 #database location
 ls ~/.mitobin/
