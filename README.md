@@ -14,12 +14,11 @@ The program will construct a reference database of complete mitochondrial genome
 #database location
 ls ~/.mitobin/
 ```
-
-  reference.faa -> amino acid translations of the protein-coding genes
-  reference.fasta -> full length source sequences (typically complete mitochondrial genomes)
-  reference.fna -> nucleotide sequences for all genes with annotations in source files
-  reference.tsv -> metadata and descriptions of database sequences (genetic codes, gene lengths, etc.)
-  simulated.fasta -> mitochondrial genomes sequences used to construct read datasets for pipeline testing.
+reference.faa -> amino acid translations of the protein-coding genes.  
+reference.fasta -> full length source sequences (typically complete mitochondrial genomes).  
+reference.fna -> nucleotide sequences for all genes with annotations in source files.  
+reference.tsv -> metadata and descriptions of database sequences (genetic codes, gene lengths, etc.)  
+simulated.fasta -> mitochondrial genomes sequences used to construct read datasets for pipeline testing.  
 
 
 # Mito-genome annotations
