@@ -8,8 +8,10 @@ A pipeline for assembly, annotation, and phylogenomic analysis of mitochondrial 
 
 
 # Mitochondrial-Sequence-Database
-The program will construct a reference database of complete mitochondrial genomes and inddividual gene sequences automatically, assuming no current datbase exists (with a last update within a month).
+The program will construct a reference database of complete mitochondrial genomes and inddividual gene sequences automatically, assuming no current datbase exists (with a last update within a month). The database is stored in ~/.mitobin/. The user can override this database construction and use custom databases if chosen.
 
+
+## Database file descriptions
 ```bash
 #database location
 ls ~/.mitobin/
@@ -19,6 +21,10 @@ reference.fasta -> full length source sequences (typically complete mitochondria
 reference.fna -> nucleotide sequences for all genes with annotations in source files.  
 reference.tsv -> metadata and descriptions of database sequences (genetic codes, gene lengths, etc.)  
 simulated.fasta -> mitochondrial genomes sequences used to construct read datasets for pipeline testing.  
+
+
+## Sequence format
+NG-MMATT expects the FASTA files in the refreence database to adhere to a specific format.
 
 
 # Mito-genome annotations
