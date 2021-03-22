@@ -11,7 +11,6 @@ The program is designed for metagenomic data but is equally useful for data from
 git clone https://github.com/Joseph7e/NG-MMAT.git
 ```
 
-
 * python3 (tested with v3.6.9)  
 * SPAdes assembler (tested with v3.13.1)
 * BLAST (v2.9.0+)
@@ -61,7 +60,7 @@ reference.tsv -> metadata and descriptions of database sequences (genetic codes,
 simulated.fasta -> mitochondrial genomes sequences used to construct read datasets for pipeline testing.  
 
 
-## Sequence format
+### Sequence header format
 NG-MMATT expects the FASTA files in the refreence database to adhere to a specific format.
 
 
