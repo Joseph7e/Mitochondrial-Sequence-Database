@@ -15,11 +15,13 @@ git clone https://github.com/Joseph7e/NG-MMAT.git
 * python3 (tested with v3.6.9)  
 * SPAdes assembler (tested with v3.13.1)
 * BLAST (v2.9.0+)
+* BWA-MEM
 * Mitos CL (https://gitlab.com/Bernt/MITOS)
 * ART-illumina (only required for read simulation)
+* PALADIN (for read filtering or assembly-free analysis)
 
 
-## USAGE:
+## Usage:
 
 ```
 usage: ng-mmat.py [-h] -i INPUT [INPUT ...] -o OUTPUT [-c REFERENCE] [-s SAM]
