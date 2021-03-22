@@ -1,5 +1,5 @@
-# Next-generation Mitochondrial Metagenomics Analysis Toolkit (NG-MMAT)
-
+# NG-MMAT
+# Next-generation Mitochondrial Metagenomics Analysis Toolkit
 A pipeline for assembly, annotation, and phylogenomic analysis of mitochondrial sequences derived from next-generation sequencing data.  
 The program is designed for metagenomic data but is equally useful for data from individual animals.  
 
@@ -16,10 +16,35 @@ git clone https://github.com/Joseph7e/NG-MMAT.git
 * SPAdes assembler (tested with v3.13.1)
 * BLAST (v2.9.0+)
 * Mitos CL (https://gitlab.com/Bernt/MITOS)
-* ART read simulation (only required for read simulation)
+* ART-illumina (only required for read simulation)
+
+
+## USAGE:
+
+```
+usage: ng-mmat.py [-h] -i INPUT [INPUT ...] -o OUTPUT [-c REFERENCE] [-s SAM]
+                  [-ass ASSEMBLY] [-r RANK] [-q QUALITY] [-a ALIGN_OPTS] [-f]
+                  [-sim]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INPUT [INPUT ...]  input sequence(s), or accessions
+  -o OUTPUT             output directory
+  -c REFERENCE          custom reference, genbank format
+  -s SAM                existing SAM
+  -ass ASSEMBLY         existing (meta)genome assembly
+  -r RANK               taxonomic rank (default: species)
+  -q QUALITY            mapping quality filter (default: none)
+  -a ALIGN_OPTS         additional aligner options (default: '-t 24')
+  -f                    force rebuild of reference
+  -sim                  input is assumed as list of headers for read
+                        simulation
+
+```
 
 ## Mitochondrial-Sequence-Database
-The program will construct a reference database of complete mitochondrial genomes and inddividual gene sequences automatically, assuming no current datbase exists (with a last update within a month). The database is stored in ~/.mitobin/. The user can override this database construction and use custom databases if chosen.
+By default, the program will construct a reference database of complete mitochondrial genomes and inddividual gene sequences automatically, assuming no current datbase exists (with a last update within a month). The database is stored in ~/.mitobin/.  
+The user can override this database construction and use custom databases if chosen.
 
 
 ### Database file descriptions
