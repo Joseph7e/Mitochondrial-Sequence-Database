@@ -2,9 +2,12 @@
 
 A pipeline for assembly, annotation, and phylogenomic analysis of mitochondrial sequences derived from next-generation sequencing data. The program is designed for metagenomic data but is equally useful for data from individual animals.
 
-# Mitochondrial-Sequence-Database
-
 ![alt text](https://github.com/joseph7e/NG-MMAT/blob/main/img/diagram-NGMMAT.png?raw=true)
+
+
+
+
+# Mitochondrial-Sequence-Database
 
 
 # Mito-genome annotations
