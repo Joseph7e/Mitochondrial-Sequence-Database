@@ -34,13 +34,16 @@ Move onto submission with bankit.
 
 
  
- # Running 
+# Running the notebook
+ 
+## Inputs 
+FASTA - 
+TBL - 
 
+## Outputs 
 
-
-
-
-
-To start you will need to edit the first few lines of the file, these specify the name of the genome and associated gff file.
+ 
+To start you will need to edit the first few lines of the file, these specify the name of the genome and associated gff file.  
+ ** Gene annotations are expected to be in-frame. If they are not, the program does not try to correct it **
 
 
