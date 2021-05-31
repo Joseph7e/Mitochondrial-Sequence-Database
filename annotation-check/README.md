@@ -33,6 +33,8 @@ Running prokka (prokka 4A.fasta -o prokka_4A --gcode 5) can help determine appro
 Move onto submission with bankit.
 
 
+ 
+ # Running 
 
 
 
