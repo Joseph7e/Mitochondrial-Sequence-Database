@@ -47,3 +47,12 @@ To start you will need to edit the first few lines of the file, these specify th
  ** Gene annotations are expected to be in-frame. If they are not, the program does not try to correct it **
 
 
+ ## Common abnormalities
+ 
+ lRNA
+ 22 tRNAs
+ control region
+ Large repetetive region
+ mulitple copies with one strange one
+ 
+ 
